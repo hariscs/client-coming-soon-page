@@ -1,0 +1,143 @@
+.main {
+	margin-block: 2rem;
+	padding: 2rem;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	text-align: center;
+	min-height: 80vh;
+}
+
+.logo {
+	max-width: 15rem;
+	margin-inline: auto;
+}
+
+.main__cmn {
+	font-size: 2.5rem;
+	letter-spacing: 2.7px;
+	line-height: 1.1;
+}
+
+.main__title {
+	margin-block: 1rem;
+	font-weight: 300;
+	line-height: 1.1;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 2.7px;
+}
+
+.main__subtitle {
+	margin-top: 1rem;
+	line-height: 25px;
+	font-size: 0.938rem;
+	max-width: 40ch;
+	margin-inline: auto;
+}
+
+.social__title {
+	margin-block: 1.5rem 1rem;
+	font-weight: 400;
+}
+
+.social__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-block: 1rem;
+}
+
+.fab {
+	font-size: 2rem;
+	color: #3e4095;
+	transition: all 30ms ease-in;
+}
+
+.fab:hover {
+	color: #e94057;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.contact__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.contact__info a {
+	color: #fff;
+}
+
+.address {
+	align-items: flex-start;
+	text-align: left;
+	max-width: 30ch;
+	margin-inline: auto;
+}
+
+.address .fas {
+	margin-top: 0.4rem;
+}
+
+/* media query for tablets screens 9.375rem*/
+@media (min-width: 50em) {
+	.main__title {
+		margin-block: 1.5rem;
+		font-size: 1.25rem;
+		letter-spacing: 3.38px;
+	}
+
+	.main__cmn {
+		font-size: 4.688rem;
+	}
+
+	.main__subtitle {
+		margin-top: 1.5rem;
+		font-size: 1rem;
+	}
+	.social__title {
+		font-size: 2.5rem;
+	}
+	.fab {
+		font-size: 2.5rem;
+	}
+}
+
+/* media query for desktop screens */
+@media (min-width: 80em) {
+	.logo {
+		max-width: 25rem;
+	}
+
+	.main__title {
+		font-size: 1.75rem;
+	}
+
+	.main__subtitle {
+		font-size: 1.125rem;
+		max-width: 50ch;
+	}
+
+	.hero__flex {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+	}
+
+	.social__title {
+		font-size: 3rem;
+	}
+}

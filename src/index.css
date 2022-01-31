@@ -11,6 +11,11 @@ html {
 body {
 	margin: 0;
 	font-family: 'DM Sans', sans-serif;
+	line-height: 1.6;
+	background: #8a2387;
+	background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+	min-height: 100vh;
+	color: #fff;
 }
 
 img {
@@ -21,9 +26,17 @@ img {
 
 h1,
 h2,
-h3,
+h3 {
+	margin: 0;
+	line-height: 1.1;
+}
+
 p {
 	margin: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 ul,
