@@ -12,7 +12,6 @@
 }
 
 .logo {
-	max-width: 70%;
 	margin-inline: auto;
 }
 
@@ -130,7 +129,8 @@
 /* media query for desktop screens */
 @media (min-width: 80em) {
 	.logo {
-		max-width: 50%;
+		width: 30rem;
+		max-width: 100%;
 	}
 
 	.main__title {

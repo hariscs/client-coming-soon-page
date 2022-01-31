@@ -1,5 +1,5 @@
 import './ComingSoon.css';
-import bgImg from '../components/Picture3.png';
+import bgImg from '../components/LOGO.svg';
 const ComingSoon = () => {
 	return (
 		<div className='home'>
