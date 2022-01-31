@@ -23,19 +23,39 @@ const ComingSoon = () => {
 					<div className='main__social'>
 						<h2 className='social__title'>Get in Touch</h2>
 						<div className='social__icons'>
-							<a href='https://facebook.com/svetro.official'>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href='https://facebook.com/svetro.official'
+							>
 								<i class='fab fa-facebook'></i>
 							</a>
-							<a href='https://twitter.com/Svetro_Official'>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href='https://twitter.com/Svetro_Official'
+							>
 								<i class='fab fa-twitter'></i>
 							</a>
-							<a href='https://www.instagram.com/svetro.official/'>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href='https://www.instagram.com/svetro.official/'
+							>
 								<i class='fab fa-instagram'></i>
 							</a>
-							<a href=' https://www.linkedin.com/in/svetro-ecommerce-47847322b/'>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href=' https://www.linkedin.com/in/svetro-ecommerce-47847322b/'
+							>
 								<i class='fab fa-linkedin-in'></i>
 							</a>
-							<a href='https://www.youtube.com/channel/UC9vZdbs9RKepzDw2ZnjJqzA'>
+							<a
+								target='_blank'
+								rel='noopener noreferrer'
+								href='https://www.youtube.com/channel/UC9vZdbs9RKepzDw2ZnjJqzA'
+							>
 								<i class='fab fa-youtube'></i>
 							</a>
 						</div>
