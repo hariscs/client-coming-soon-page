@@ -47,7 +47,7 @@ const ComingSoon = () => {
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
-								href=' https://www.linkedin.com/in/svetro-ecommerce-47847322b/'
+								href='https://www.linkedin.com/in/svetro-ecommerce-754335230/'
 							>
 								<i class='fab fa-linkedin-in'></i>
 							</a>
