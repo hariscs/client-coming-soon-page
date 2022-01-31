@@ -20,6 +20,7 @@
 	font-size: 2.5rem;
 	letter-spacing: 2.7px;
 	line-height: 1.1;
+	font-weight: 700;
 }
 
 .main__title {
@@ -40,8 +41,20 @@
 }
 
 .social__title {
-	margin-block: 1.5rem 1rem;
+	margin-block: 1.5rem;
 	font-weight: 400;
+	position: relative;
+}
+
+.social__title::after {
+	content: '';
+	position: absolute;
+	background: #fff;
+	width: 50%;
+	height: 2px;
+	bottom: -10%;
+	left: 25%;
+	display: inline;
 }
 
 .social__icons {
@@ -78,6 +91,7 @@
 
 .contact__info a {
 	color: #fff;
+	font-weight: 500;
 }
 
 .address {
@@ -98,11 +112,9 @@
 		font-size: 1.25rem;
 		letter-spacing: 3.38px;
 	}
-
 	.main__cmn {
 		font-size: 4.688rem;
 	}
-
 	.main__subtitle {
 		margin-top: 1.5rem;
 		font-size: 1rem;

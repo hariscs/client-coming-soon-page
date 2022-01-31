@@ -7,13 +7,13 @@ const ComingSoon = () => {
 				<main className='main'>
 					<img src={bgImg} alt='logo' className='logo' />
 					<div className='main__info'>
-						<h1 className='main__title'>Our new Website is</h1>
+						<h1 className='main__title'>Our new Website</h1>
 						<div className='hero__flex'>
 							<p className='main__cmn'>COMING</p>
 							<p className='main__cmn sn'>SOON</p>
 						</div>
 						<p className='main__subtitle'>
-							Svetro is ane Commerce company with long experience increating
+							Svetro is an e-commerce company with long experience in creating
 							solutions and providing services to give its customers a
 							competitive edge. We are global providers of various range of
 							first-class services that can uplift your business to the The next
